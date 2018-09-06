@@ -33,6 +33,10 @@ this.spinnerService.showLoader();
 this.spinnerService.hideLoader();
 
 ```
+ - Place html selector in your app.component.html
+   ```sh
+   <app-rk-spinner text="Loader.."></app-rk-spinner>
+   ```
 - For more info please check the demo sample provided, which listens on http://localhost:4200
   ```sh
   $ npm install
